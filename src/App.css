@@ -1,4 +1,9 @@
-main {
+.h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.item-list {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +24,7 @@ main {
   padding-left: 28px;
 }
 
-.h1 {
+.h2 {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   text-align: center;
