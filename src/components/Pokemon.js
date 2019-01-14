@@ -6,7 +6,7 @@ class Pokemon extends React.Component {
         this.state = {types: this.props.types}
     }
     render() {
-        const typesList = this.state.types.map(member => <li className="li">{member}</li>)
+        const typesList = this.state.types.map(type => <li className="li">{type}</li>)
       return (
         <div className="container-pokemon">
             <img className="img" src={this.props.url} alt=""></img>
