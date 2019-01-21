@@ -2,11 +2,22 @@ import React from 'react';
 import Pokemon from './Pokemon'
 
 class PokeList extends React.Component {
+constructor(props){
+    super(props);
+    this.getInputValuePokemon = this.getInputValuePokemon.bind(this);
+}
+
+getInputValuePokemon(event){
+    let pokemonSearch = event.target.value;
+    console.log('Quiero buscar:', pokemonSearch);
+}
+
   render() {
       console.log(this.props.data);
     return (
         <div>
             <h1 className="h1">Mi lista de Pokémon</h1>
+            <input type="text" placeholder="Search your pokémon..." onChange={this.getInputValuePokemon}/>
             <ul className="item-list">
                     <Pokemon
                         id="1" 
