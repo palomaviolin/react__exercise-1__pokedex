@@ -1,9 +1,6 @@
-# e-s3-evaluacion-intermedia-palomaviolin
+# React - Ejercicio 1
 
-Entra a la web resultante del ejercicio [AQUÍ](http://beta.adalab.es/e-s3-evaluacion-intermedia-palomaviolin/).
-
-
-# Ejercicio de evaluación intermedia - Sprint 3 (Adalab)
+Entra a la web resultante del ejercicio [AQUÍ](https://palomaviolin.github.io/react__exercise-1__pokedex/).
 
 El ejercicio consiste en desarrollar una página web sencilla con React.
 
